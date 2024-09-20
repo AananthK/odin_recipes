@@ -1,7 +1,8 @@
 /* style.css */
 
+/* Homepage and Webpage Default Formatting */
 body{
-    margin: 0
+    margin: 0;
 }
 
 
@@ -19,7 +20,8 @@ p {
     font-family: Geneva, Verdana, sans-serif;
 }
 
-#intro {
+#intro,
+.openning {
     color: black;
     background-color: rgb(231, 244, 212);
     text-align:left;
@@ -36,11 +38,12 @@ p {
     padding: 20px;
 }
 
-div em {
+div {
     display: block;
     font-size: 28px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
+    margin-top: 10px;
     padding: 20px;
     border: 8px solid rgb(147, 249, 132);
     background-color: rgb(231, 244, 212);
@@ -58,4 +61,38 @@ div em {
 #lastrec {
     padding-bottom: 20px;
     margin-bottom: 0;
+}
+
+/* Recipe Pages */
+#bchicken {
+    display: block;
+    width: 500px;
+    background-color: rgb(206, 116, 32);
+    padding: 20px;
+    margin: 0 auto;
+}
+
+
+li {
+    font-family: Geneva, Verdana, sans-serif;
+}
+
+#stps li {
+    margin-bottom: 20px;
+}
+
+#lsgna {
+    display: block;
+    width: 700px;
+    background-color: rgb(245, 202, 75);
+    padding: 20px;
+    margin: 0 auto;
+}
+
+#brwns {
+    display: block;
+    width: 600px;
+    background-color: rgb(90, 54, 40);
+    padding: 20px;
+    margin: 0 auto;
 }
